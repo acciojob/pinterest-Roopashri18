@@ -1,1 +1,45 @@
 /*  your css code here. If applicable */
+body {
+  margin: 0;
+  font-family: "Times New Roman", serif;
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.hero img {
+  width: 70%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.hero-content {
+  width: 30%;
+  text-align: center;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.hero-content h1 {
+  font-size: 26px;
+  margin: 0 0 10px 0;
+}
+
+.hero-content p {
+  font-size: 13px;
+  margin: 0 0 20px 0;
+}
+
+.explore-btn {
+  display: inline-block;
+  padding: 8px 14px;
+  background-color: #e60023;
+  color: #ffffff;
+  border-radius: 4px;
+  font-size: 12px;
+  text-decoration: none;
+}
